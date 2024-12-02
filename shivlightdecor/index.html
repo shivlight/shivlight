@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiv Light</title>
+    <link rel="icon" href="images/shivlightlogo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="fixed-top">
+        <header>
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand d-flex align-items-center" href="#home">
+                        <img src="images/shivlightlogo.jpg" alt="Shiv Light Logo">
+                        <span data-i18n="brand_name">SHIV LIGHT</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#home" data-i18n="home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services" data-i18n="services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#features" data-i18n="features">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about" data-i18n="about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact" data-i18n="contact">Contact</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-i18n="language">
+                                    Language
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                                    <a class="dropdown-item" href="#" data-lang="en">English</a>
+                                    <a class="dropdown-item" href="#" data-lang="hi">Hindi</a>
+                                    <a class="dropdown-item" href="#" data-lang="gu">Gujarati</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <!-- Home Section -->
+    <section class="home-sec" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 align-item-center">
+                    <div class="home-info">
+                        <h1  data-i18n="welcome">Welcome to SHIV LIGHT</h1>
+                        <p  data-i18n="home_description">We specialize in providing beautiful and elegant lighting solutions for your home and events.</p>
+                        <h2  data-i18n="home_desc">We <span>Shiv Light</span> are a team of experienced professionals passionate about lighting design and decoration.</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="img-sec">
+                        <img src="images/homelight.webp" alt="home-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-sec" id="services">
+        <div class="container">
+            <div class="heading text-center">
+                <h2 data-i18n="service">Our Services</h2>
+                <p  data-i18n="service_intro">Explore the wide range of lighting solutions we offer to make your spaces shine bright.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <div class="service-box">
+                        <img src="images/home.jpg" alt="Service 1">
+                        <h4  data-i18n="service_1_title">Home Lighting</h4>
+                        <p  data-i18n="service_1_desc">Enhance your home's ambiance with our customized lighting solutions.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="service-box">
+                        <img src="images/light.webp" alt="Service 2">
+                        <h4 data-i18n="service_2_title">Event Lighting</h4>
+                        <p  data-i18n="service_2_desc">Make your events memorable with our elegant and creative lighting setups.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="service-box">
+                        <img src="images/laptoplight.webp" alt="Service 3">
+                        <h4 data-i18n="service_3_title">Commercial Lighting</h4>
+                        <p  data-i18n="service_3_desc">Brighten your business space with our energy-efficient lighting systems.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-sec" id="features">
+        <div class="container">
+            <div class="heading text-center">
+                <h2 data-i18n="features">Features</h2>
+                <p  data-i18n="features_intro"> Discover what makes us the leading provider of innovative lighting solutions.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-box text-center">
+                        <i class="fa fa-lightbulb-o fa-3x"></i>
+                        <h4  data-i18n="feature_1_title">Innovative Design</h4>
+                        <p data-i18n="feature_1_desc">Creative and modern designs to match every style and theme.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="feature-box text-center">
+                        <i class="fa fa-cogs fa-3x"></i>
+                        <h4 data-i18n="feature_2_title">Custom Solutions</h4>
+                        <p data-i18n="feature_2_desc">Tailor-made lighting solutions to meet your specific needs.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="feature-box">
+                        <i class="fa fa-leaf fa-3x"></i>
+                        <h4 data-i18n="feature_3_title">Eco-Friendly</h4>
+                        <p data-i18n="feature_3_desc">Energy-efficient and sustainable lighting options for a greener planet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about-sec" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="images/lights.webp" alt="About Us" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-info">
+                        <h2 data-i18n="about_us_title">About Us</h2>
+                        <p data-i18n="about_us_intro">At Shiv Light, we believe that lighting is more than just illumination.</p> 
+                           <p data-i18n="about_us_desc">It’s an art that brings spaces to life. With over a decade of experience, we have been at the forefront of delivering exceptional lighting solutions for homes, events, and businesses. Our commitment to quality and innovation sets us apart as industry leaders.</p>
+                        <p data-i18n="about_us_commitment">Let us help you create captivating spaces with our expert services and state-of-the-art products.</p>
+                        <button data-i18n="learn_more" class="btn btn-outline-dark mt-3">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="heading">
+                <h2 data-i18n="contact_us_title">Connect With Us</h2>
+                <p data-i18n="contact_us_intro">Fill the form below, and we’ll be in touch soon.</p>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Mobile No.">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                </div>
+                <button data-i18n="submit_button"class="btn1">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h4 data-i18n="brand_name">SHIV LIGHT</h4>
+                    <p data-i18n="address">Address: 21 Heng Mui Keng Terrace, Icube Building, Singapore 119613</p>
+                    <p>Email: <a href="mailto:shivlightdecor@gmail.com">shivlightdecor@gmail.com</a></p>
+                </div>
+                <div class="col-lg-4">
+                    <h4 data-i18n="quick_links">Quick Links</h4>
+                    <ul>
+                        <li><a data-i18n="home" href="#home">Home</a></li>
+                        <li><a data-i18n="about" href="#about">About</a></li>
+                        <li><a data-i18n="services" href="#services">Services</a></li>
+                        <li><a data-i18n="features" href="#features">Features</a></li>
+                        <li><a data-i18n="contact" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 social">
+                    <h4 data-i18n="follow_us">Follow Us</h4>
+                    <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                    <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/i18next/dist/umd/i18next.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

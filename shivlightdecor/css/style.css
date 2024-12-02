@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #242058;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Header */
+header {
+    background: #242058;
+    padding: 15px 0;
+    color: #f0cd07;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+header .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: #f0cd07;
+}
+
+header .navbar-brand img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+header nav a {
+    color: #f0cd07;
+    font-weight: 500;
+    margin-left: 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    /* color: #ffffff; */
+    color: #f0cd07;
+
+}
+
+.navbar-toggler-icon {
+    background-color: #f0cd07;
+}
+
+/* Contact Section at Top */
+.cont-sec {
+    background: #f0cd07;
+    color: #242058;
+    padding: 10px 0;
+    z-index: 999;
+}
+
+.cont-sec a {
+    color: #242058;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.cont-sec a:hover {
+    text-decoration: underline;
+}
+
+.social img {
+    width: 25px;
+    height: 25px;
+    margin: 0 5px;
+}
+
+/* Home Section */
+.home-sec {
+    background: linear-gradient(120deg, #f0cd07, #242058);
+    color: #ffffff;
+    padding: 150px 20px 100px;
+    text-align: center;
+    position: relative;
+}
+
+.home-sec h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.home-sec p {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.home-sec h2 span {
+    color: #f0cd07;
+}
+
+.img-sec img {
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+/* Services Section */
+.services-sec {
+    padding: 80px 0;
+    background: #f4f4f9;
+    text-align: center;
+}
+
+.services-sec h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.service-box img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+
+.service-box h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #242058;
+}
+
+.service-box p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Features Section */
+.features-sec {
+    padding: 80px 0;
+    background: #242058;
+    color: #ffffff;
+}
+
+.features-sec h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #f0cd07;
+}
+
+.feature-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature-box i {
+    color: #f0cd07;
+    margin-bottom: 10px;
+}
+
+.feature-box h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.feature-box p {
+    font-size: 1rem;
+    color: #dcdcdc;
+}
+
+/* About Section */
+.about-sec {
+    padding: 80px 0;
+    background: #f4f4f9;
+}
+
+.about-sec h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #242058;
+}
+
+.about-info p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+.about-info button {
+    background-color: #f0cd07;
+    color: #242058;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.about-info button:hover {
+    background-color: #242058;
+    color: #f0cd07;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.contact-form .form-control {
+    margin-bottom: 20px;
+    border: 2px solid #242058;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #f0cd07;
+    color: #242058;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #242058;
+    color: #f0cd07;
+}
+
+
+/* General Footer Styles */
+footer {
+    background-color: #1f1b57; /* Dark blue background for elegance */
+    color: #e6edff; /* Light color for text contrast */
+    padding: 50px 0;
+    font-family: 'Arial', sans-serif; /* Modern font family */
+}
+
+footer h4 {
+    font-size: 1.5rem; /* Larger font size for headings */
+    font-weight: bold; /* Make headings prominent */
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-transform: uppercase; /* Capitalize headings */
+    border-bottom: 2px solid #e6edff; /* Add a stylish underline */
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+footer p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0 0 15px;
+}
+
+footer p a {
+    color: #ffd700; /* Gold color for email link */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+}
+
+footer p a:hover {
+    color: #e6edff; /* Reverts to light color on hover */
+}
+
+/* Quick Links Styles */
+footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #e6edff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+footer ul li a:hover {
+    color: #ffd700; /* Gold color on hover */
+    margin-left: 10px; /* Subtle hover animation */
+}
+
+/* Social Media Icons */
+footer .social {
+    margin-top: 20px;
+}
+
+footer .social a img {
+    width: 30px; /* Slightly larger icon size */
+    margin-right: 15px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+footer .social a img:hover {
+    transform: scale(1.2); /* Slight zoom effect on hover */
+    opacity: 0.8; /* Dim the icons slightly */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    footer .row {
+        text-align: center;
+    }
+
+    footer .col-lg-4 {
+        margin-bottom: 30px;
+    }
+
+    footer .social a img {
+        margin-right: 10px;
+    }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f0cd07;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #242058;
+}
